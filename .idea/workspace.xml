@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f47fec2-ada6-448b-ad27-47f12c3768d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/sample/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/sample/HelloWorld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/java/sample/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/java/sample/AppTest.java" afterDir="false" />
+    <list default="true" id="6f47fec2-ada6-448b-ad27-47f12c3768d9" name="Changes" comment="adding some changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/srimanta/sample/CheckPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/srimanta/sample/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/srimanta/sample/SimpleLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/srimanta/sample/StaticImportSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/srimanta/sample/abstractsample/Dell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/srimanta/sample/abstractsample/DellNotebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/srimanta/sample/abstractsample/HP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/srimanta/sample/abstractsample/HPNotebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/srimanta/sample/abstractsample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/srimanta/sample/abstractsample/TouchScreenLaptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/srimanta/sample/encapsulationsample/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/srimanta/sample/encapsulationsample/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,7 +53,20 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ListTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="CheckPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.srimanta.sample.CheckPrime" />
+      <module name="mavendemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.srimanta.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.java.sample.ListTest" />
       <module name="mavendemo" />
@@ -63,17 +80,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.srimanta.sample.abstractsample.Main" />
       <module name="mavendemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.java.sample.*" />
+          <option name="PATTERN" value="com.srimanta.sample.abstractsample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.java.sample" />
-      <option name="MAIN_CLASS_NAME" value="com.java.sample.AppTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.srimanta.sample.SimpleLoop" />
+      <module name="mavendemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.srimanta.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticImportSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.srimanta.sample.StaticImportSample" />
+      <module name="mavendemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.srimanta.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,14 +146,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.CheckPrime" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.SimpleLoop" />
+      <item itemvalue="Application.StaticImportSample" />
       <item itemvalue="Application.ListTest" />
-      <item itemvalue="JUnit.AppTest" />
       <item itemvalue="Maven.mavendemo [clean,install]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.StaticImportSample" />
+        <item itemvalue="Application.SimpleLoop" />
+        <item itemvalue="Application.CheckPrime" />
         <item itemvalue="Application.ListTest" />
-        <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +172,21 @@
       <option name="presentableId" value="Default" />
       <updated>1654245373587</updated>
     </task>
+    <task id="LOCAL-00001" summary="adding some changes">
+      <created>1654278927102</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654278927102</updated>
+    </task>
+    <task id="LOCAL-00002" summary="adding some changes">
+      <created>1654279007075</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654279007075</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,5 +199,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding some changes" />
   </component>
 </project>
